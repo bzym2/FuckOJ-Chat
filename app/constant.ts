@@ -116,6 +116,19 @@ export const EXPORT_MESSAGE_CLASS_NAME = "export-markdown";
 
 export enum ServiceProvider {
   OpenAI = "OpenAI",
+  Azure = "Azure",
+  Google = "Google",
+  Anthropic = "Anthropic",
+  Baidu = "Baidu",
+  ByteDance = "ByteDance",
+  Alibaba = "Alibaba",
+  Tencent = "Tencent",
+  Moonshot = "Moonshot",
+  Stability = "Stability",
+  Iflytek = "Iflytek",
+  XAI = "XAI",
+  ChatGLM = "ChatGLM",
+  DeepSeek = "DeepSeek",
   SiliconFlow = "SiliconFlow",
 }
 
