@@ -1,5 +1,5 @@
-export const OWNER = "ChatGPTNextWeb";
-export const REPO = "ChatGPT-Next-Web";
+export const OWNER = "bzym2";
+export const REPO = "FuckOJ-Chat";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
@@ -11,7 +11,7 @@ export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
 export const STABILITY_BASE_URL = "https://api.stability.ai";
 
-export const OPENAI_BASE_URL = "https://api.openai.com";
+export const OPENAI_BASE_URL = "https://yunwu.ai/";
 export const ANTHROPIC_BASE_URL = "https://api.anthropic.com";
 
 export const GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/";
@@ -116,19 +116,6 @@ export const EXPORT_MESSAGE_CLASS_NAME = "export-markdown";
 
 export enum ServiceProvider {
   OpenAI = "OpenAI",
-  Azure = "Azure",
-  Google = "Google",
-  Anthropic = "Anthropic",
-  Baidu = "Baidu",
-  ByteDance = "ByteDance",
-  Alibaba = "Alibaba",
-  Tencent = "Tencent",
-  Moonshot = "Moonshot",
-  Stability = "Stability",
-  Iflytek = "Iflytek",
-  XAI = "XAI",
-  ChatGLM = "ChatGLM",
-  DeepSeek = "DeepSeek",
   SiliconFlow = "SiliconFlow",
 }
 
@@ -826,5 +813,5 @@ export const internalAllowedWebDavEndpoints = [
 
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
-export const SAAS_CHAT_URL = "https://nextchat.club";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.club?utm=github";
+export const SAAS_CHAT_URL = "https://qqwhale.lol";
+export const SAAS_CHAT_UTM_URL = "https://qqwhale.lol";
