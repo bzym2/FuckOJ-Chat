@@ -11,23 +11,22 @@ const cn = {
       ? `😆 对话遇到了一些问题，不用慌:
        \\ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
        \\ 2️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️`
-      : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 想要零配置开箱即用，[点击这里立刻开启对话 🚀](${SAAS_CHAT_UTM_URL})
-       \ 2️⃣ 如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问秘钥 🔑
-       \ 3️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️
+      : `😡 你还没有输入牛逼密钥:
+       \ 1️⃣ 如果你想使用我的牛逼平台，点击[这里](/#/auth)输入访问秘钥 🔑
+       \ 2️⃣ 如果你想消耗自己的Token，点击[这里](/#/settings)修改设置 ⚙️
        `,
   },
   Auth: {
     Return: "返回",
-    Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google AI 密钥",
-    Input: "在此处填写访问码",
+    Title: "需要你妈",
+    Tips: "请在下方填入访问妈",
+    SubTips: "不要往下面输入密钥，输入了也没用🤓",
+    Input: "在此处填写访问妈",
     Confirm: "确认",
     Later: "稍后再说",
-    SaasTips: "配置太麻烦，想要立即使用",
+    SaasTips: "别点我",
     TopTips:
-      "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+      "😨 叮咚鸡叮咚鸡，下来搞核酸",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -312,20 +311,20 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
-        Label: "（性价比最高的方案）",
+        Title: "忽视我",
+        Label: "这里原来是广告位，不用管 ",
         SubTitle:
-          "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
-        ChatNow: "立刻对话",
+          "巴结失败，大头已出😆",
+        ChatNow: "点我也没用",
       },
       AccessCode: {
-        Title: "访问密码",
+        Title: "访问你妈",
         SubTitle: "管理员已开启加密访问",
-        Placeholder: "请输入访问密码",
+        Placeholder: "请输入访问你妈",
       },
       CustomEndpoint: {
         Title: "自定义接口",
-        SubTitle: "是否使用自定义 Azure 或 OpenAI 服务",
+        SubTitle: "是否使用自定义API服务",
       },
       Provider: {
         Title: "模型服务商",
@@ -621,7 +620,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "泥嚎👋",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
